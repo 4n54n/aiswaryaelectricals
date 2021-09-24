@@ -6,7 +6,7 @@ function printDiv() {
     if (divName == "" || divPlace == "" || divMessage == "" ) {
         window.alert("Name, Place and Message are mandatory!");
     } else {
-    window.open("https://wa.me/+919747994523/?text=%09"+divSubject+"%0A%0A"+divMessage+"%0A%0AName%20:%20"+divName+"%0APlace%20:%20"+divPlace);
+    window.open("https://wa.me/+919747994523/?text="+divSubject+"%0A%0A"+divMessage+"%0A%0AName%20:%20"+divName+"%0APlace%20:%20"+divPlace);
     
     }
 }
